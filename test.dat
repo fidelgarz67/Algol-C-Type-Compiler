@@ -1,0 +1,41 @@
+int x;
+int y, z[25];
+int count;
+
+void main (void)begin
+   write "Enter a number";
+   read x;
+   write 5;
+   write "hello";
+   write x;
+   
+   write 5 <=5;
+   y = 2;
+   write y;
+
+   if (5 >= 3) then
+      write "true";
+      else
+      write "false";
+      
+   if (5 <= 3) then
+      write "true";
+      else
+      write "false";   
+      
+   count = 1;
+   while(count <= 7)do
+   begin
+      write "loop";
+      count = count +1;
+      end
+    z[0]=1;
+    z[1]=2;
+    z[2]=3;
+    z[3]=0;
+    
+    write z[z[z[z[0]]]];
+    write z[z[z[z[1]]]];
+    write z[z[z[z[2]]]];
+    write z[z[z[z[3]]]];
+end
